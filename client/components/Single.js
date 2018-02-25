@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Single = React.createClass({
+class Single extends React.Component {
     render() {
         return (
             <div className="single-photo">
@@ -8,6 +8,6 @@ const Single = React.createClass({
             </div>
         )
     }
-});
+}
 
 export default Single;
