@@ -10,9 +10,7 @@ class Photo extends React.Component {
             <figure className="grid-figure">
                 <div className="grid-photo-wrap">
                     <Link to={`/view/${post.code}`}>
-                        <img src={post.display_src} 
-                        alt={post.caption} 
-                        className="grid-photo" />
+                        <img src={post.display_src} alt={post.caption} className="grid-photo" />
                     </Link>
 
                     <CSSTransitionGroup transitionName="like"

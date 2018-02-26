@@ -1,5 +1,4 @@
 const postComment = (state = [], action) => {
-    console.log(action)
     switch (action.type) {
         case 'ADD_COMMENT':
             // return updated state with new comment

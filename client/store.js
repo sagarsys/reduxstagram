@@ -7,7 +7,7 @@ import rootReducer from './reducers/index';
 import comments from './data/comments';
 import posts from './data/posts';
 
-
+// TODO: Implement remote webservice API for initial state data 
 // create an object for initial state
 const initialState = {
     posts,
